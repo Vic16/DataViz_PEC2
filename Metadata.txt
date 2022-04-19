@@ -3,3 +3,6 @@ https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
 
 Técnica 2 Dataset
 https://www.kaggle.com/datasets/prasertk/historical-commodity-prices-from-20002022?resource=download
+
+Técnica 3 Dataset
+https://www.kaggle.com/datasets/deepcontractor/unicorn-companies-dataset

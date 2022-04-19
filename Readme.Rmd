@@ -100,6 +100,12 @@ comp <- data_3 %>%
   tail(5)
 ```
 
+
+```{r}
+print(comp)
+```
+
+
 ```{r}
 comp <- c(`USA`=536,`China`=168,`India`=63,`United Kingdom`=42,`Germany`=24)
 

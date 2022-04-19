@@ -99,9 +99,22 @@ comp <- data_3 %>%
 ```
 
 ``` r
+print(comp)
+```
+
+    ## # A tibble: 5 x 2
+    ##   Country        NumberOfCompanies
+    ##   <chr>                      <int>
+    ## 1 Germany                       24
+    ## 2 United Kingdom                42
+    ## 3 India                         63
+    ## 4 China                        168
+    ## 5 United States                536
+
+``` r
 comp <- c(`USA`=536,`China`=168,`India`=63,`United Kingdom`=42,`Germany`=24)
 
 waffle(comp/5, rows = 10, glyph_size = 10, title = "Top 5 Countries by Number of Unicorn Companies",  pad = 12)
 ```
 
-![](Readme_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](Readme_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
