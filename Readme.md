@@ -45,4 +45,4 @@ wordcloud(words = df$word, freq = df$freq,
           colors=brewer.pal(8, "Dark2"))
 ```
 
-![](PEC2_Tecnicas_Viz_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](Readme_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->

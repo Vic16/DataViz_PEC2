@@ -1,7 +1,7 @@
 {
     "id": "2176285D",
-    "path": "~/UOC/5.Visualizacion_Datos/A5_Eva2/PEC2_Tecnicas_Viz.Rmd",
-    "project_path": "PEC2_Tecnicas_Viz.Rmd",
+    "path": "~/UOC/5.Visualizacion_Datos/A5_Eva2/Readme.Rmd",
+    "project_path": "Readme.Rmd",
     "type": "r_markdown",
     "hash": "1220279816",
     "contents": "",
@@ -21,7 +21,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1650405428052,
+    "last_content_update": 1650405428,
     "read_only": false,
     "read_only_alternatives": []
 }
