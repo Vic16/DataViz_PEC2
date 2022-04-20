@@ -3,7 +3,7 @@
     "path": "~/UOC/5.Visualizacion_Datos/A5_Eva2/Readme.Rmd",
     "project_path": "Readme.Rmd",
     "type": "r_markdown",
-    "hash": "1160911690",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1650404733538.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "103,6",
-        "scrollLine": "81"
+        "cursorPosition": "109,29",
+        "scrollLine": "103"
     },
     "folds": "",
-    "lastKnownWriteTime": 1650412665,
+    "lastKnownWriteTime": 1650415358,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1650412665067,
+    "last_content_update": 1650415358150,
     "read_only": false,
     "read_only_alternatives": []
 }
