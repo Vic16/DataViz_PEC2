@@ -160,6 +160,30 @@ data_2 %>%
 
 ## Técnica 3: Isotype & Unit charts
 
+Se trata de gráficos utilizados para representar frecuencias. Se utiliza
+para la representación de estadísticas descriptivas, frecuencias, etc.
+Las visualizaciones estilo Isotype son consideradas como precursores de
+los gráficos y técnicas de visualización de datos de la actualidad.
+ISOTYPE es el acrónimo en ingles de International System Of Typographic
+Picture Education, traducido al español como Sistema internacional de
+educación de imágenes topográficas. Dicho sistema fue inventado por Otto
+Neurath en colaboración con su esposa Marie Neurath y Gerd Arntz. El
+objetivo de las personas mencionadas fue crear diseños educativos para
+representar estadísticas por medio de pictogramas, [acá se pueden
+encontrar algunos
+ejemplos](https://datavizblog.com/2013/08/06/dataviz-history-isotype-charts-the-vintage-visual-language-that-gave-rise-to-modern-infographics/).
+
+Para realizar la visualización como input se necesita una tabla con la
+variable cualitativa y realizar un procesamiento de frecuencias, es
+decir contar la aparición de cada nivel de dicha variable cualitativa.
+La ventaja principal es el impacto visual que puede tener la
+representación de este estilo en la comunicación de cómo se distribuye
+una variable cualitativa. La desventaja es que no nos aporta más
+información: usualmente no tienen porcentajes, sabemos quién es el grupo
+mayoritario, pero no su magnitud, es imposible saber en el ejemplo
+presentado si las compañías tipo unicornio en Estados Unidos representan
+un 70 u 80% entre los países top.
+
 ``` r
 data_3 <- read.csv2("data/Tec3/Unicorn_Companies.csv", sep = ",")
 ```

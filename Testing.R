@@ -8,6 +8,10 @@ library(RColorBrewer)
 library(tidytext)
 library(tm)
 
+library(waffle)
+library(fontawesome)
+library(extrafont)
+library(emojifont)
 
 
 ## Tecnica 1
@@ -60,4 +64,17 @@ data_2 %>%
 
 
 ## Tecnica 3
+
+data_3 <- read.csv2("data/Tec3/Unicorn_Companies.csv", sep = ",")
+
+comp <- data_3 %>% 
+  group_by(Country) %>% 
+  summarize(NumberOfCompanies = n()) %>% 
+  arrange(NumberOfCompanies, desc(NumberOfCompanies)) %>% 
+  tail(5)
+
+comp <- c(`USA`=536,`China`=168,`India`=63,`United Kingdom`=42,`Germany`=24)
+
+waffle(comp/5, rows = 10, glyph_size = 10, title = "Top 5 Countries by Number of Unicorn Companies",  pad = 12)
+
 
