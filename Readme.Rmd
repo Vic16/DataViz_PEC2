@@ -85,6 +85,12 @@ Los limites del tamaño del dataset para utilizar esta técnica se relacionan m�
 data_2 <- read.csv2("data/Tec2/commodity 2000-2022.csv", sep = ",")
 ```
 
+
+```{r}
+head(data_2)
+```
+
+
 Realizamos algunas transformaciones para obtener el año y agrupar por dicho campo
 
 ```{r}

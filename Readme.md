@@ -128,6 +128,18 @@ representar valores negativos.
 data_2 <- read.csv2("data/Tec2/commodity 2000-2022.csv", sep = ",")
 ```
 
+``` r
+head(data_2)
+```
+
+    ##   Symbol       Date  Open  High   Low Close Volume
+    ## 1   Gold 2000-01-04 281.0 281.0 281.0 282.7      4
+    ## 2   Gold 2000-01-05 283.2 283.2 283.2 281.1     16
+    ## 3   Gold 2000-01-06 281.4 281.4 281.4 281.4      0
+    ## 4   Gold 2000-01-07 281.9 281.9 281.9 281.9      0
+    ## 5   Gold 2000-01-10 281.7 281.7 281.7 281.7      0
+    ## 6   Gold 2000-01-11 283.4 283.4 283.4 283.4      0
+
 Realizamos algunas transformaciones para obtener el año y agrupar por
 dicho campo
 
@@ -144,7 +156,7 @@ data_2 %>%
   ggplot(aes(x=Year, y=MeanClose, fill=Symbol)) + geom_stream()
 ```
 
-![](Readme_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](Readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 Por defecto el geom stream crea un espejo, es necesario setear un
 parámetro más para obtener un gráfico un poco más limpio.
@@ -156,7 +168,7 @@ data_2 %>%
   ggplot(aes(x=Year, y=MeanClose, fill=Symbol)) + geom_stream(type = "ridge") 
 ```
 
-![](Readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](Readme_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ## Técnica 3: Isotype & Unit charts
 
@@ -215,4 +227,4 @@ comp <- c(`USA`=536,`China`=168,`India`=63,`United Kingdom`=42,`Germany`=24)
 waffle(comp/5, rows = 10, glyph_size = 10, title = "Top 5 Countries by Number of Unicorn Companies",  pad = 12)
 ```
 
-![](Readme_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](Readme_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
